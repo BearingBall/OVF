@@ -15,18 +15,20 @@ private:
 		bool(*SecondCondition)(floatingPoint),
 		floatingPoint(*MidValue)(floatingPoint, floatingPoint))
 	{
-		while (LeftValue <= RightValue) 
+		floatingPoint Mid;
+		while (true) 
 		{
-			floatingPoint Mid = MidValue(LeftValue,RightValue);
-			if (FirstCondition(Mid) && SecondCondition(Mid)) { 
+			Mid = MidValue(LeftValue,RightValue);
+			if (Mid == RightValue || Mid == LeftValue) { 
 				return Mid;             
 			}
 			if (FirstCondition(Mid))     
-				LeftValue = Mid;  
-			else                  
+				LeftValue = Mid;
+			else
+			if (SecondCondition(Mid))
 				RightValue = Mid;   
 		}
-		return LeftValue;
+		return Mid;
 	}
 	
 public:
@@ -39,7 +41,7 @@ public:
 	template<typename floatingPoint, typename std::enable_if<std::is_floating_point<floatingPoint>::value, floatingPoint>::type* = nullptr>
 	static floatingPoint GetEpsilonAlgorithmic()
 	{
-		return BinarySearch<floatingPoint>(static_cast<floatingPoint>(0), static_cast<floatingPoint>(1),
+		return BinarySearch<floatingPoint>(static_cast<floatingPoint>(0), static_cast<floatingPoint>(3),
 			[](floatingPoint e) { return 1 + e / 2 == 1; },
 			[](floatingPoint e) { return 1 + e != 1; },
 			[](floatingPoint a, floatingPoint b) { return (a + b) / 2; });
