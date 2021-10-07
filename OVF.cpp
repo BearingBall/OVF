@@ -1,22 +1,23 @@
 ﻿#include <iostream>
 #include <iomanip>
 #include "Task1.h"
+#include "Task2.h"
+//#include "Task3.h"
+#include "Task4.h"
+#include "Task5.h"
+#include "Task6.h"
+#include "Task7.h"
 
 int main()
 {
-	std::cout << Task1::GetEpsilonManual<float>() << " Manual float value" << std::endl;
-	std::cout << Task1::GetEpsilonAlgorithmic<float>() << " Algorithmic float value" << std::endl;
-	std::cout << Task1::GetEpsilonManual<double>() << " Manual double value" << std::endl;
-	std::cout << Task1::GetEpsilonAlgorithmic<double>() << " Algorithmic double value" << std::endl;
-	std::cout << Task1::GetDecimalMantissaNumber<float>() << " Decimal Mantissa Number float" << std::endl;
-	std::cout << Task1::GetDecimalMantissaNumber<double>() << " Decimal Mantissa Number double" << std::endl;
-	std::cout << Task1::GetMinPow<float>() << " Min power float" << std::endl;
-	std::cout << Task1::GetMinPow<double>() << " Min power double" << std::endl;
-	std::cout << Task1::GetMaxPow<float>() << " Max power float" << std::endl;
-	std::cout << Task1::GetMaxPow<double>() << " Max power double" << std::endl;
+	//Task1::solve();
+	//Task2 task2(30, 1); task2.solve();
+	//Task3 task3; task3.solve();
+  //Task4 task4; task4.solve(0.1,0.00002,0.0001);
+  //Task5 task5; task5.solve(15);
+    Task6 task6; task6.solve();
+    //Task7 task7; task7.solve(5,5,0.0001);
 
-	std::vector<float> ValuesFloat = Task1::GetValues<float>();
-	std::cout << std::setprecision(std::numeric_limits<float>::max_digits10) << "FloatValues:\n" << ValuesFloat[0] << "\n" << ValuesFloat[1] << "\n" << ValuesFloat[2] << "\n" << ValuesFloat[3] <<  std::endl;
-	std::vector<double> ValuesDouble = Task1::GetValues<double>();
-	std::cout << std::setprecision(std::numeric_limits<double>::max_digits10) << "DoubleValues:\n" << ValuesDouble[0] << "\n" << ValuesDouble[1] << "\n" << ValuesDouble[2] << "\n" << ValuesDouble[3] << std::endl;
+
+	//system("pause");
 }

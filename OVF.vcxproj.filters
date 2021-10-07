@@ -26,5 +26,23 @@
     <ClInclude Include="Task1.h">
       <Filter>Task1</Filter>
     </ClInclude>
+    <ClInclude Include="Task2.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task3.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task4.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task5.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task6.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task7.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
