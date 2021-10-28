@@ -21,6 +21,9 @@
     <ClCompile Include="OVF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Task8.h">
+      <Filter>Task1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Task1.h">
@@ -42,6 +45,9 @@
       <Filter>Task1</Filter>
     </ClInclude>
     <ClInclude Include="Task7.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task9.h">
       <Filter>Task1</Filter>
     </ClInclude>
   </ItemGroup>

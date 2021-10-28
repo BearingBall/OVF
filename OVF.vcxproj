@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OVF.cpp" />
+    <ClCompile Include="Task8.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Task1.h" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Task5.h" />
     <ClInclude Include="Task6.h" />
     <ClInclude Include="Task7.h" />
+    <ClInclude Include="Task9.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GNUDraw\GNUDraw\GNUDraw.vcxproj">
