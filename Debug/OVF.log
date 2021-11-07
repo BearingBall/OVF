@@ -10,4 +10,13 @@ c:\users\степан\source\repos\ovf\ovf\task4.h(51): warning C4244: 'argument
 c:\users\степан\source\repos\ovf\ovf\task4.h(52): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
 c:\users\степан\source\repos\ovf\ovf\task4.h(53): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
 c:\users\степан\source\repos\ovf\ovf\task4.h(54): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\степан\source\repos\ovf\ovf\task11.h(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\степан\source\repos\ovf\ovf\task11.h(198): warning C4018: '<': signed/unsigned mismatch
+  Task8.h
+  Generating Code...
   OVF.vcxproj -> C:\Users\Степан\source\repos\OVF\Debug\OVF.exe

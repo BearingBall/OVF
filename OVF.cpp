@@ -9,6 +9,9 @@
 #include "Task7.h"
 #include "Task8.h"
 #include "Task9.h"
+#include "Task10.h"
+#include "Task11.h"
+#include "Task12.h"
 
 int main()
 {
@@ -22,7 +25,10 @@ int main()
     //task7.solve(4.9,4.9,0.0001);
     //task7.optimal(4.9, 4.9);
     //Task8 task8; task8.solve();
-    Task9 task9; task9.solve();
+    //Task9 task9; task9.solve();
+    //Task10 task10; task10.solve(100,30,1);
+    //Task11 task11; task11.solve();
+    Task12 task12; task12.solve();
 
 	  //system("pause");
 }

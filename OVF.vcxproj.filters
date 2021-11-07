@@ -50,5 +50,14 @@
     <ClInclude Include="Task9.h">
       <Filter>Task1</Filter>
     </ClInclude>
+    <ClInclude Include="Task10.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task11.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task12.h">
+      <Filter>Task1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

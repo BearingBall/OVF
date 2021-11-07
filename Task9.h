@@ -73,7 +73,9 @@ public:
 
     void solve()
     {
-        Calculate(100, 1, 0, 1, 1, 0, -1);
+        // 1,0,0,1,0,0
+        //1, 0, 1, 1, 0, -1
+        Calculate(100, 1, 0, 0, 1, 0, 0);
 
         GNUDrawer gnuDrawer;
         auto arr = Arrays::Construct();
@@ -81,6 +83,21 @@ public:
         arr->Add("y", y);
         gnuDrawer.Add(arr);
         gnuDrawer.Draw();
+
+        std::vector<double> mis;
+        mis.resize(n + 1);
+        for (int i = 0; i <= n; ++i)
+        {
+            mis[i] = sin(x[i])+y[i];
+        }
+
+
+        GNUDrawer gnuDrawer2;
+        auto arr2 = Arrays::Construct();
+        arr2->Add("x", x);
+        arr2->Add("y", mis);
+        gnuDrawer2.Add(arr2);
+        gnuDrawer2.Draw();
     }
 
 };

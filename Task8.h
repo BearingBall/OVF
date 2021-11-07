@@ -20,7 +20,7 @@ private:
 
 public:
     double t0 = 0;
-    double t1 = 10;
+    double t1 = 5;
 
     void solve()
     {
@@ -52,7 +52,7 @@ public:
         gnuDrawer3.Draw();
     }
 
-    std::vector<std::vector<double>> Ochevid(double u = 0.01, double v = 0.01, double h = 0.001)
+    std::vector<std::vector<double>> Ochevid(double u = 0.01, double v = 0.01, double h = 0.0001)
     {
         std::vector<double> u_value;
         std::vector<double> v_value;
@@ -70,7 +70,7 @@ public:
         return { t_value, u_value, v_value };
     }
 
-    std::vector<std::vector<double>> neOchevid(double u = 0.01, double v = 0.01, double h = 0.001)
+    std::vector<std::vector<double>> neOchevid(double u = 0.01, double v = 0.01, double h = 0.0001)
     {
         std::vector<double> u_value;
         std::vector<double> v_value;
